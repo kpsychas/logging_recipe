@@ -33,7 +33,7 @@ they write to the same file so that all results are in one place.
 
 ## Files
 
-### mylib/__init__.py
+### mylib/\_\_init\_\_.py
 
 Adds NullHandler to mylib loggers so that applications
 that import mylib don't get warnings if loggers are not configured.
