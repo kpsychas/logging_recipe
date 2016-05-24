@@ -1,15 +1,16 @@
 # Python Logging Recipe
 
 ## Introduction
-Parts of this recipe are covered in [Python Cookbook](https://docs.python.org/2/howto/logging-cookbook.html) but we combine all of them in a proper solution for the following 
-configurable use case.
+Parts of this recipe are covered in [Python Cookbook](https://docs.python.org/2/howto/logging-cookbook.html) 
+but they are combined in a proper solution for the following configurable use case.
 
 ## Use Case
 Our setting consists of a library with different modules and application code 
 consisting of multiple source files that uses this library. 
 We want 2 separate logging configurations with different requirements:
  
- * A configuration for the modules of the library code that can be executed as scripts. This configuration will be part of the library.
+ * A configuration for the modules of the library code that can be executed as scripts. 
+ This configuration will be part of the library.
  * A configuration for the application code. This should be to the extend possible independent of the library code.
 
 ### Library Requirements
